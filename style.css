@@ -86,8 +86,8 @@ header{
     top: 0;
     z-index: 999;
 }
-input[type=checked]{
-    z-index: 999999;
+header input{
+    display: none;
 }
 header .logo{
     width: 30%;
