@@ -1,0 +1,535 @@
+/* ======= Width 1366 px ====== */
+@media screen and (max-width:22000px){
+    .mid_content {
+        width: 100%;
+        max-width: 100%;
+        padding:0 20px;
+    }
+    /* Feature Section */
+    .feature_section .feature {
+        height: 250px;
+    }
+    .feature_section .feature .left {
+        width: 50%;
+        height: 100%;
+        overflow: hidden;
+    }
+    .feature_section .feature .left img{
+        height: 100%;
+    }
+
+    .contact_section .left.map iframe {
+        width: 100%;
+    }
+}
+/* ======= Width 1365 px ====== */
+@media screen and (max-width:1365px) {
+    /* header section */
+    header {
+        height: inherit;
+        line-height: 0px;
+        position: relative;
+    }
+    header .logo {
+        width: 100%;
+    }
+    header .logo a{
+        text-align: center;
+        padding: 5px 0;
+    }
+    header .logo a img{
+        float: inherit;
+    }
+    header .logo a span {
+        float: inherit;
+        position: relative;
+        top: -29px;
+    }
+    header .menu {
+        text-align: left;
+        width: 50%;
+        
+    }
+    header .menu ul li a {
+        line-height: 78px;
+    }
+    header .button {
+        margin-left: auto;
+        width: 50%;
+        text-align: right;
+    }
+    /* Banner section */
+    .banner_section {
+        margin-top: inherit;
+    }
+}
+/* ======= Width 300 px ====== */
+@media screen and (max-width:1180px) {
+    /* header section */
+
+    /* Banner section */
+    .banner_section h1 {
+        font-size: 44px;
+        padding: 20px 0;
+    }
+    .banner_section .btn {
+        padding: 10px 20px;
+    }
+    /* Use section */
+    .use_section {
+        padding: 38px 0;
+    }
+    .use_section .video {
+        width: 100%;
+    }
+    .use_section .content {
+        width: 100%;
+        margin: 30px 0 0 0;
+    }
+    .use_section .content h1 {
+        font-size: 35px;
+    }
+    .use_section .content h1 + p {
+        font-size: 15px;
+        padding-top: 10px;
+        line-height: 21px;
+    }
+    /* About section */
+    .about_section {
+        padding: 30px;
+    }
+    .about_section .about_header h1 {
+        font-size: 40px;
+    }
+
+    .about_section .about_box {
+        padding: 15px;
+        height: inherit;
+    }
+    /* Pricing Table section */
+    .pricing_table_section .pricing_table .table_header h1 {
+        font-size: 40px;
+        padding: 18px 0;
+    }
+    /* Team section */
+    .team_section h1 {
+        font-size: 35px;
+    }
+    /* Subscrib section */
+    /* Feature section */
+    .feature_section{
+        padding: 50px 0;
+    }
+    .feature_section .feature .right p {
+        font-size: 13px;
+    }
+    /* Feedback section */
+    .feedback_section {
+        padding: 50px;
+    }
+    .feedback_section.clear h6 + h1 {
+        font-size: 31px;
+        padding: 30px;
+        margin-bottom: 25px;
+    }
+    .feedback_section .card .card_header p {
+        font-size: 13px;
+    }
+    .feedback_section .card_body {
+        padding: 0px 20px;
+        padding-top: 31px;
+    }
+    /* Contact section */
+    /* Footer section */
+    
+}
+/* ===================================================================== 975px ====================== */
+@media screen and (max-width:975px) {
+    .pricing_table_section .pricing_table {
+        margin-top: 20px;
+        float: none;
+        width: 100%;
+    }
+    .pricing_table_section .pricng_header h2 {
+        font-size: 25px;
+    }
+    .pricing_table_section .pricng_header p {
+        margin-bottom: 40px;
+    }
+    .feature_section .feature_header .left {
+        width: 100%;
+        text-align: center;
+    }
+    .feature_section .feature_header .left h1 {
+        font-size: 40px;
+        margin-top: 0px;
+        margin-left: 0%;
+    }
+    .feature_section .feature_header .right {
+        width: 100%;
+        padding: 25px 0;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .feature_section .feature {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+/* ======= Width 300 px ====== */
+@media screen and (max-width:870px) {
+    /* header section */
+    header.clear::after {
+        content: '';
+        clear: both;
+        display: none;
+    }
+    header .logo a img {
+        height: 40px;
+        width: inherit;
+    }
+    header .logo a span {
+        top: -14px;
+        font-size: 20px;
+    }
+    header .icon {
+        display: block;
+        font-size: 40px;
+        color: #5252f7;
+        padding-bottom: 10px;
+    }
+    header input{
+        z-index: 2;
+        position: relative;
+        top: 45px;
+        left: -8px;
+        opacity: 0;
+        background-color: red;
+        height: 50px;
+        width: 50px;
+    }
+    header .menu ul{
+        display: none;
+        transition: .5s;
+    }
+    header input:checked ~ .menu ul{
+        display: block;
+        background: rgb(255, 0, 0);
+        position: absolute;
+        left: 10%;
+        top: 100%;
+    }
+    header input:checked ~ .menu ul li{
+        display: block;
+        width: 100% !important;
+    }
+    header .button {
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        z-index: 1;
+    }
+    /* Banner section */
+    .banner_section {
+        padding: 100px;
+    }
+    .banner_section h6 {
+        font-size: 13px;
+    }
+    .banner_section h1 {
+        font-size: 30px;
+    }
+
+    /* Use section */
+    .use_section .content h1 {
+        font-size: 31px;
+        line-height: inherit;
+    }
+    .use_section .content h1 + p {
+        padding-top: 0px;
+
+    }
+    /* About section */
+    .about_section .about_header h1 {
+        font-size: 30px;
+    }
+    .about_section .about_header h1 + P {
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+    .about_section .about_box {
+        width: 47%;
+    }
+    /* Pricing Table section */
+    /* Team section */
+    .team_section h1 {
+        font-size: 25px;
+    }
+    .team_section .member {
+        width: 48%;
+        margin: 10px 1%;
+    }
+    /* Subscrib section */
+    .subscribe_section .mid_content h2 {
+        font-size: 25px;
+        padding: 20px 0;
+    }
+    .subscribe_section .mid_content form input {
+        width: 100%;
+    }
+    .subscribe_section .mid_content form button {
+        width: 50%!important;
+    }
+    /* Feature section */
+    /* Feedback section */
+    .feedback_section .feedback_header h6 {
+        font-size: 15px;
+    }
+    .feedback_section.clear h6 + h1 {
+        font-size: 25px;
+        padding: 15px;
+        margin-bottom: 30px;
+    }
+    .feedback_section .card {
+        width: 100%;
+        float: inherit;
+        margin: 15px 0%;
+    }
+    
+    /* Contact section */
+    .contact_section .left.map {
+        width: 100%;
+        float: inherit;
+    }
+    .contact_section .contact_form {
+        width: 100%;
+        float: inherit;
+        padding-top: 10px;
+    }
+    /* Footer section */
+    
+}
+/* ======= Width 300 px ====== */
+@media screen and (max-width:576px) {
+    /* header section */
+    /* Banner section */
+    .banner_section {
+        padding: 100px 0;
+    }
+    .banner_section h6 {
+        font-size: 12px;
+    }
+    .banner_section h1 {
+        font-size: 20px;
+    }
+    .banner_section .btn {
+        padding: 7px 10px;
+        font-size: 11px;
+    }
+    /* Use section */
+    /* About section */
+    .about_section .about_header h1 {
+        font-size: 20px;
+    }
+    .about_section .about_header h1 + P {
+        padding: 0px;
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .about_section .about_box {
+        width: 100%;
+    }
+    /* Pricing Table section */
+    /* Team section */
+    .team_section .member {
+        width: 100%;
+        margin: 10px 0%;
+    }
+    /* Subscrib section */
+    .subscribe_section {
+        padding: 50px 20px;
+    }
+    .subscribe_section .mid_content h2 {
+        font-size: 20px;
+    }
+    .subscribe_section .mid_content h6 {
+        font-size: 11px;
+    }
+    /* Feature section */
+    .feature_section .feature .right {
+        padding: 17px;
+        line-height: inherit;
+    }
+    /* Feedback section */
+    /* Contact section */
+ 
+    /* Footer section */
+    .footer_section p {
+        font-size: 12px;
+    }
+    
+}
+/* ======= Width 300 px ====== */
+@media screen and (min-width:0px) {
+    /* header section */
+    /* Banner section */
+    /* Use section */
+    /* About section */
+    /* Pricing Table section */
+    /* Team section */
+    /* Subscrib section */
+    /* Feature section */
+    /* Feedback section */
+    /* Contact section */
+    /* Footer section */
+    
+}
+/* ======= Width 300 px ====== */
+@media screen and (min-width:0px) {
+    /* header section */
+    /* Banner section */
+    /* Use section */
+    /* About section */
+    /* Pricing Table section */
+    /* Team section */
+    /* Subscrib section */
+    /* Feature section */
+    /* Feedback section */
+    /* Contact section */
+    /* Footer section */
+    
+}
+/* ======= Width 300 px ====== */
+@media screen and (min-width:0px) {
+    /* header section */
+    /* Banner section */
+    /* Use section */
+    /* About section */
+    /* Pricing Table section */
+    /* Team section */
+    /* Subscrib section */
+    /* Feature section */
+    /* Feedback section */
+    /* Contact section */
+    /* Footer section */
+    
+}
+/* ======= Width 300 px ====== */
+@media screen and (min-width:0px) {
+    /* header section */
+    /* Banner section */
+    /* Use section */
+    /* About section */
+    /* Pricing Table section */
+    /* Team section */
+    /* Subscrib section */
+    /* Feature section */
+    /* Feedback section */
+    /* Contact section */
+    /* Footer section */
+    
+}
+/* ======= Width 300 px ====== */
+@media screen and (min-width:0px) {
+    /* header section */
+    /* Banner section */
+    /* Use section */
+    /* About section */
+    /* Pricing Table section */
+    /* Team section */
+    /* Subscrib section */
+    /* Feature section */
+    /* Feedback section */
+    /* Contact section */
+    /* Footer section */
+    
+}
+/* ======= Width 300 px ====== */
+@media screen and (min-width:0px) {
+    /* header section */
+    /* Banner section */
+    /* Use section */
+    /* About section */
+    /* Pricing Table section */
+    /* Team section */
+    /* Subscrib section */
+    /* Feature section */
+    /* Feedback section */
+    /* Contact section */
+    /* Footer section */
+    
+}
+/* ======= Width 300 px ====== */
+@media screen and (min-width:0px) {
+    /* header section */
+    /* Banner section */
+    /* Use section */
+    /* About section */
+    /* Pricing Table section */
+    /* Team section */
+    /* Subscrib section */
+    /* Feature section */
+    /* Feedback section */
+    /* Contact section */
+    /* Footer section */
+    
+}
+/* ======= Width 300 px ====== */
+@media screen and (min-width:0px) {
+    /* header section */
+    /* Banner section */
+    /* Use section */
+    /* About section */
+    /* Pricing Table section */
+    /* Team section */
+    /* Subscrib section */
+    /* Feature section */
+    /* Feedback section */
+    /* Contact section */
+    /* Footer section */
+    
+}
+/* ======= Width 0 px ====== */
+@media screen and (max-width:0px) {
+    /* header section */
+    .mid_content {
+        width: 100%;
+        margin: auto;
+        max-width: 100%;
+        padding: 10px 20px;
+    }
+    header {
+        box-shadow: 0 1px 7px rgb(0 0 0);
+        background-color: #fff;
+    }
+    header .logo {
+        width: 100%;
+    }
+    header .menu ul {
+        list-style: none;
+        display: none;
+    }
+    header .logo img {
+        width: 50px;
+        margin-right: 20px;
+    }
+    header .logo a span {
+        position: relative;
+        top: -16px;
+        font-size: 22px;
+        color: rgb(114, 114, 114);
+        font-weight: 600;
+    }
+    /* Banner section */
+    /* Use section */
+    /* About section */
+    /* Pricing Table section */
+    /* Team section */
+    /* Subscrib section */
+    /* Feature section */
+    /* Feedback section */
+    /* Contact section */
+    /* Footer section */
+    
+}
